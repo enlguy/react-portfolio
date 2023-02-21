@@ -1,7 +1,13 @@
 import { useState, useEffect } from 'react';
 import useMediaQuery from './hooks/useMediaQuery';
+import Landing from './scenes/Landing';
 import Navbar from './scenes/Navbar';
 import DotGroup from './scenes/DotGroup';
+import Contact from './scenes/Contact';
+import LineGradient from './components/LineGradient';
+import MySkills from './scenes/MySkills';
+import Projects from './scenes/Projects';
+import Footer from './scenes/Footer';
 
 
 function App() {
@@ -32,7 +38,21 @@ function App() {
             setSelectedPage={setSelectedPage}
           />
         )}
+        <Landing setSelectedPage={setSelectedPage} />
       </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full">
+          <MySkills />
+      </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto">
+          <Projects />
+      </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full">
+          <Contact />
+      </div>
+      <Footer />
     </div>
   );
 }

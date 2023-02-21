@@ -95,7 +95,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                         />
                     </div>
                     </div>
-                )};
+                )}
             </div>
         </nav>
     )

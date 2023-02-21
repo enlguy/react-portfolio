@@ -12,3 +12,13 @@ body,
     background-color: #010026;
     @apply text-white;
 }
+
+#profileimage {
+    max-width: 400px;
+    max-height: 600px;
+}
+
+#githubimage {
+    width: 30px;
+    height: 30px;
+}
