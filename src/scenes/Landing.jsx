@@ -49,13 +49,13 @@ const Landing = ({ setSelectedPage }) => {
             Jack {""}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
-              before:absolute before:-left-[20px] before:-top-[55px] before:z-[-1]"
+              before:absolute before:-left-[25px] before:-top-[110px] before:z-[-1]"
             >
               Epner
             </span>
           </p>
 
-          <p className="mt-10 mb-7 text-sm text-center md:text-start">
+          <p className="mt-12 mb-7 text-sm text-center md:text-start z-0">
             Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
             viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
           </p>

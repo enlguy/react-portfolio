@@ -65,7 +65,8 @@ const MySkills = () => {
                             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-o z-[-1]" />
                         </div>
                         <p className="mt-5">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit laudantium odit aliquam libero ipsam tempore accusamus deserunt neque, quisquam aperiam suscipit molestiae? Eaque magni tempora cum officiis tempore. Quasi, neque.
+                            Highly tech savvy, I began working with computers as a kid before it was common - `80's baby`. Today I work with 
+                            HTML5, CSS3, JavaScript, React, Tailwind, Node, Mongo, and more.
                         </p>
                     </motion.div>
 
