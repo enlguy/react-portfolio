@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,7 +8,17 @@ html,
 body,
 #root,
 .app {
-  height: 100%;
-  background-color: #010026;
-  @apply text-white;
+    height: 100%;
+    background-color: #010026;
+    @apply text-white;
+}
+
+#profileimage {
+    max-width: 400px;
+    max-height: 600px;
+}
+
+#githubimage {
+    width: 30px;
+    height: 30px;
 }
