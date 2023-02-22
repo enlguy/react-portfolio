@@ -1,7 +1,6 @@
 import SocialMediaIcons from "../components/SocialMediaIcons";
 
 const Footer = () => {
-<<<<<<< HEAD
   return (
     <footer className="h-64 bg-red pt-10">
       <div className="w-10/12 mx-auto">
@@ -18,7 +17,6 @@ const Footer = () => {
     </footer>
   );
 };
-=======
     return (
         <footer className="h-64 bg-red pt-10">
             <div className="w-10/12 mx-auto">
@@ -30,7 +28,5 @@ const Footer = () => {
             </div>
         </footer>
     )
-}
->>>>>>> parent of 2846fbc (Fixing Projects section)
 
 export default Footer
