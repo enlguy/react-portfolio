@@ -26,7 +26,7 @@ const MySkills = () => {
                     </p>
                     <LineGradient width="w-1/3" />
                     <p className="mt-10 mb-7">
-                        "A 'Jack' of all trades, and master of none, is oftentimes better than a master of one."
+                        "A <span className="text-blue">Jack</span> of all trades, and master of none, is oftentimes better than a master of one."
                     </p>
                 </motion.div>
                 <div className="mt-16 md:mt-0">
